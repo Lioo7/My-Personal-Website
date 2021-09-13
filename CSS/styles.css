@@ -162,8 +162,8 @@ hr {
 }
 
 .top-cloud {
-  position: relative;
-  left: 1%;
+  position: absolute;
+  right: 28%;
   top: 50px;
 }
 
