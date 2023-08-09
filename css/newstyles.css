@@ -1,0 +1,143 @@
+/* General styles */
+body {
+  color: #333;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Typography */
+h1 {
+  color: #66BFBF;
+  font-size: 4rem;
+  margin: 100px auto 0 auto;
+  font-family: 'Caveat', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Links */
+a {
+  color: #0096FF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/* Paragraphs and lists */
+p,
+li {
+  line-height: 1.8;
+}
+
+li {
+  padding: 5px;
+  list-style-type: disc;
+  background-color: #fafafa;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Containers and layout */
+.top {
+  background-color: #EAF6F6;
+  padding-top: 20px;
+}
+
+.row {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.about-row,
+.experience-row,
+.skill-row,
+.projets-row,
+.volunteer-row {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.middle-container,
+.bottom-container {
+  margin: 20px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0;
+}
+
+/* Buttons */
+.btn {
+  background: linear-gradient(to bottom, #11CDD4, #11999E);
+  border-radius: 8px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    margin: 10% auto 0 auto;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .row {
+    width: 90%;
+  }
+
+  .btn {
+    margin: 5% auto;
+  }
+
+  .Lioz {
+    margin-top: 5%;
+    width: 30%;
+  }
+}
