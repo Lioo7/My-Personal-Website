@@ -229,12 +229,12 @@ hr {
     text-align: center;
   }
 
-  .top-cloud,
+/*   .top-cloud,
   .bottom-cloud {
     position: absolute;
     width: 20%;
     top: 5%;
-  }
+  } */
 
   .bottom-container {
     padding: 20px 0;
@@ -253,10 +253,10 @@ hr {
     width: 30%;
   }
 
- .mountain {
+/*  .mountain {
     width: 70%;
     margin: 0 auto;
-  }
+  } */
 
   hr {
     width: 30%;
