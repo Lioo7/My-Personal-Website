@@ -207,7 +207,16 @@ hr {
 .Lioz {
   margin-top: 40px;
   width: 10%;
+  border-radius: 50%; 
+  border: 3px solid #66BFBF; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease-in-out; 
 }
+
+.Lioz:hover {
+  transform: scale(1.1); 
+}
+
 
 /* Mobile-first responsive design */
 @media screen and (max-width: 768px) {
