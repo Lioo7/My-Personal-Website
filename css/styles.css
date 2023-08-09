@@ -246,12 +246,10 @@ hr {
     text-align: center;
   }
 
-/*   .top-cloud,
+  .top-cloud,
   .bottom-cloud {
-    position: absolute;
-    width: 20%;
-    top: 5%;
-  } */
+    display: none;
+  }
 
   .bottom-container {
     padding: 20px 0;
@@ -270,10 +268,9 @@ hr {
     width: 30%;
   }
 
-/*  .mountain {
-    width: 70%;
-    margin: 0 auto;
-  } */
+ .mountain {
+    display: none;
+  }
 
   hr {
     width: 30%;
