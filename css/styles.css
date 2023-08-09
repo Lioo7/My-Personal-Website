@@ -234,12 +234,12 @@ hr {
   }
 
   p {
-    font-size: 18px; 
+    font-size: 15px; 
     line-height: 1.8;
   }
 
   body {
-    margin: 20px; 
+    margin: 40px; 
   }
   
   .row {
