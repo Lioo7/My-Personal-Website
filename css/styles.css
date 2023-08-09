@@ -213,7 +213,7 @@ hr {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 4rem;
-    margin: 50px auto 0 auto;
+    margin: 10% auto 0 auto; 
   }
 
   .row {
@@ -231,7 +231,9 @@ hr {
 
   .top-cloud,
   .bottom-cloud {
-    display: none;
+    position: absolute;
+    width: 20%;
+    top: 5%;
   }
 
   .bottom-container {
@@ -239,20 +241,25 @@ hr {
   }
 
   .btn {
-    margin: 20px auto;
+    margin: 5% auto;
   }
 
   .icons {
-    margin: 10px 0;
+    margin: 5% 0;
   }
 
   .Lioz {
-    margin-top: 20px;
+    margin-top: 5%;
     width: 30%;
+  }
+
+ .mountain {
+    width: 70%;
+    margin: 0 auto;
   }
 
   hr {
     width: 30%;
-    margin: 30px auto;
+    margin: 10% auto;
   }
 }
