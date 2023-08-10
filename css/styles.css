@@ -101,9 +101,15 @@ hr {
   margin: 50px 0 1px;
 }
 
-.bottom-container {
+/* .bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 10px;
+} */
+.bottom-container {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .footer-link {
@@ -266,9 +272,9 @@ hr {
     display: none;
   }
 
-  .bottom-container {
+/*   .bottom-container {
     padding: 20px 0;
-  }
+  } */
 
   .btn {
     margin: 5% auto;
