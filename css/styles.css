@@ -103,12 +103,9 @@ hr {
 
 .bottom-container {
   background: #EAF6F6;
-  color: #fff;
+  color: #333;
   text-align: center;
   padding: 20px 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 .footer-link {
@@ -143,7 +140,7 @@ hr {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #000000;
   font-size: 0.75rem;
   padding: 10px 0;
 }
